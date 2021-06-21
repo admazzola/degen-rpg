@@ -8,7 +8,7 @@
               
             ],
       
-            "suffix":"punkforums_development" ,
+            "suffix":"degenrpg_development" ,
             "logging":true
         },
      
@@ -35,7 +35,7 @@
                 
             ],
             "courseBlockGap":10000,
-            "suffix":"punkforums_production" ,
+            "suffix":"degenrpg_production" ,
             "logging":true
         }, 
         "chainId":1

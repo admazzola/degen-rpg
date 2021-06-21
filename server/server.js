@@ -6,6 +6,8 @@ import MongoInterface from './lib/mongo-interface.js'
 import APIInterface from './lib/api-interface.js'
 
 import FileHelper from './lib/file-helper.js'
+
+import RPGManager from './lib/rpg-manager.js'
  
 
 import Web3 from 'web3'
@@ -20,9 +22,12 @@ let serverConfig = serverConfigFile[envmode]
     console.log('server config: ',serverConfig)
 
 
-    let mongoInterface = new MongoInterface( 'punkforums_api_'.concat(envmode) ) 
+    let mongoInterface = new MongoInterface( 'degenrpg_api_'.concat(envmode) ) 
 
-    let wolfpackInterface = new MongoInterface( 'wolfpack_punkforums_'.concat(envmode) ) 
+    let wolfpackInterface = new MongoInterface( 'wolfpack_degenrpg_'.concat(envmode) )
+    
+    let rpgManager = new RPGManager( mongoInterface, wolfpackInterface )
+    
 
 
     let web3 = new Web3( serverConfig.web3provider  )

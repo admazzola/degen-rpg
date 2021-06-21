@@ -4,7 +4,6 @@
 
 
     import web3utils from 'web3-utils'
-    import ApplicationManager from './application-manager.js'
     
     import ForumManager  from './forum-manager.js'
 
@@ -418,8 +417,7 @@
 
                 let results = await APIHelper.findERC20BalanceByAccount(account,  wolfpackInterface)
 
-                await ApplicationManager.logNewRequest(appId,inputData.requestType,inputParameters,results, mongoInterface)
-
+                
                 return {success:true, input: inputParameters, output: results  }
             }
 
@@ -429,8 +427,7 @@
  
                 let results = await APIHelper.findERC20BalanceByToken(inputParameters.token  ,  wolfpackInterface)
 
-                await ApplicationManager.logNewRequest(appId,inputData.requestType,inputParameters,results, mongoInterface)
-
+                
                 return {success:true, input: inputParameters, output: results  }
             }
 
@@ -440,8 +437,7 @@
 
                 let results = await APIHelper.findERC20TransferredByFrom(inputParameters.from , wolfpackInterface)
 
-                await ApplicationManager.logNewRequest(appId,inputData.requestType,inputParameters,results, mongoInterface)
-
+               
                 return {success:true, input: inputParameters, output: results  }
             }
 
@@ -451,8 +447,7 @@
 
                 let results = await APIHelper.findERC20TransferredByTo(inputParameters.to , wolfpackInterface)
 
-                await ApplicationManager.logNewRequest(appId,inputData.requestType,inputParameters,results, mongoInterface)
-
+                
                 return {success:true, input: inputParameters, output: results  }
             }
 
@@ -462,8 +457,7 @@
 
                 let results = await APIHelper.findERC20TransferredByFromTo(inputParameters.from, inputParameters.to, wolfpackInterface)
 
-                await ApplicationManager.logNewRequest(appId,inputData.requestType,inputParameters,results, mongoInterface)
-
+             
                 return {success:true, input: inputParameters, output: results  }
             }*/
 
