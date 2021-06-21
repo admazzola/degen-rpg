@@ -6,18 +6,14 @@ Unofficial web forum for Cryptopunks by Larva Labs
 
 ### Dev Notes
  
-
- 
--add categories
--access to certain categories 
- 
-
-
--getting erc20 balance doesnt work
--need to wolfpack events from Payspec 
+- Allow for login 
+- build dashboard page which will show your heroes that you own 
+- build Hero Show page that shows their level, stats, equipment, inventory
+- build 'overview' page and then build missions (they take 2-24 hours to complete, hero can die and lose gold + item )
+- keep track of account gold balance 
 
 
--Add custom frontend color schemes, based on punks colors. (limited) (settings) 
+
 
 
 ### Development commands
