@@ -1,6 +1,6 @@
 {
-  "name": "punk-forums",
-  "description": "Unofficial forum for cryptopunks",
+  "name": "degen-rpg",
+  "description": "Idle RPG",
   "version": "1.0.0",
   "type": "module",
   "postcss": {
