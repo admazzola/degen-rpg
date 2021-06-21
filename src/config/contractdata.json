@@ -1,0 +1,37 @@
+{
+  "mainnet":{
+    "contracts":{
+      "0xbitcoin":{"name":"0xBTC","address":"0xb6ed7644c69416d67b522e20bc294a9a9b405b31","decimals":8,"minBidAmount":1},
+ 
+      "weth":{"name":"wEth","address":"0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2", "decimals":18, "minBidAmount":0.02},
+     
+      "payspec":{"address":"0x22b01e79bb5910d3dde8235d2425190df1f07481"} ,
+
+      "cryptopunks":{"address":"0xb47e3cd837ddf8e4c57f05d70ab865de6e193bbb"} 
+
+      
+ 
+    }
+
+
+  },
+  "goerli":{
+    "contracts":{
+      "0xbitcoin":{"name":"0xBTC","address":"0xab89a7742cb10e7bce98540fd05c7d731839cf9f","decimals":8,"minBidAmount":1},
+ 
+      "weth":{"name":"wEth","address":"0xf5e7aa9fd045ce55c68f9a4f80a608496f152524", "decimals":18, "minBidAmount":0.02},
+
+      "payspec":{"address":"0x22b01e79bb5910d3dde8235d2425190df1f07481"} ,
+
+      
+
+      "cryptopunks":{"address":"0x8a4c85478568ec5284301eaa0ddfd06c0ed73323"} 
+
+     
+    }
+
+
+  }
+
+
+}

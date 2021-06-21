@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link id="favicon" rel="icon"  >
+    <title>Etherpunks</title>
+
+    
+  </head>
+  <body>
+
+
+
+    <noscript>
+      <strong>We're sorry but vue-playground doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
+    </noscript>
+    <div id="app"></div>
+    <!-- built files will be auto injected -->
+  </body>
+  
+</html>
+
+<script> 
+
+const punkIdsArray = [
+3315,
+1164,
+4447,
+9537,
+4257,
+3681,
+2242,
+3129,
+7472,
+1473,
+1629,
+5528,
+7225,
+1183,
+5725,
+6507,
+7959,
+1389
+
+]
+
+let randomIndex = Math.floor( Math.random() * punkIdsArray.length  )
+let punkId = punkIdsArray[randomIndex] 
+
+
+document.getElementById("favicon").href="/punk".concat(punkId).concat(".png");
+
+</script> 

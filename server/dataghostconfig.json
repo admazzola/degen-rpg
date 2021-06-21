@@ -1,0 +1,46 @@
+{
+    "development":{
+        "wolfPackConfig":{
+            "contracts":[ 
+
+              {"address":"0xab89a7742cb10e7bce98540fd05c7d731839cf9f", "startBlock":5039000 , "type":"ERC20"} ,
+              {"address":"0x8a4c85478568ec5284301eaa0ddfd06c0ed73323", "startBlock": 4876534 , "type":"Cryptopunks"} 
+              
+            ],
+      
+            "suffix":"punkforums_development" ,
+            "logging":true
+        },
+     
+        "chainId":5
+    },
+    "staging":{
+        "wolfPackConfig":{
+            "contracts":[],
+      
+            "suffix":"staging" ,
+            "logging":true
+        },
+     
+        "chainId":5
+    },
+    "production":{
+
+        "wolfPackConfig":{
+            "contracts":[
+               
+                {"address":"0xb6ed7644c69416d67b522e20bc294a9a9b405b31", "startBlock":5039000 , "type":"ERC20"},
+                {"address":"0xb47e3cd837ddf8e4c57f05d70ab865de6e193bbb",   "startBlock": 3914495 , "type":"Cryptopunks"}
+ 
+                
+            ],
+            "courseBlockGap":10000,
+            "suffix":"punkforums_production" ,
+            "logging":true
+        }, 
+        "chainId":1
+    }
+    
+    
+   
+}
