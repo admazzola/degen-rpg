@@ -1,15 +1,7 @@
- 
-    import Web3Helper from './web3-helper.js'
- 
-    import FileHelper from './file-helper.js'
-
+   
     import ServerHelper from './server-helper.js'
     import APIHelper from './api-helper.js'
-
-    import web3utils from 'web3-utils'
  
-    
-   const MAX_APP_COUNT = 25 
  
     export default class RPGManager  {
     
@@ -22,7 +14,6 @@
 
         init(){
             setInterval(this.spawnHeroes.bind(this),10*1000)
-
         }
 
         async spawnHeroes(){
