@@ -4,7 +4,8 @@
             "contracts":[ 
 
               {"address":"0xab89a7742cb10e7bce98540fd05c7d731839cf9f", "startBlock":5039000 , "type":"ERC20"} ,
-              {"address":"0x8a4c85478568ec5284301eaa0ddfd06c0ed73323", "startBlock": 4876534 , "type":"Cryptopunks"} 
+              {"address":"0x8a4c85478568ec5284301eaa0ddfd06c0ed73323", "startBlock": 4876534 , "type":"Cryptopunks"}, 
+              {"address":"0x032dd2a3c6d234aa9620d65eb618fcdc72be3dbb", "startBlock": 12668669 , "type":"ERC721"} 
               
             ],
       
